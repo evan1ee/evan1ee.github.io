@@ -1,6 +1,6 @@
 baseURL = 'https://evan1ee.github.io/'
 languageCode = 'en-us'
-title = 'Evan Blog'
+title = 'This is Evan Blog, welcome to my Blog'
 
 [module]
   [[module.imports]]
@@ -29,6 +29,11 @@ title = 'Evan Blog'
     name = 'Logs'
     url = '/logs/'
     weight = 40
+
+[params]
+  sitename = "Evan Blog"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "Minimal Hugo blog theme with light and dark mode support"
 
 
 [params.author]
