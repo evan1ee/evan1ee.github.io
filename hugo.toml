@@ -32,7 +32,7 @@ title = 'This is Evan Blog, welcome to my Blog.'
 
 [params]
   sitename = "Evan Blog"
-  defaultColor = "dark" # set default color mode: dark or light
+  defaultColor = "light" # set default color mode: dark or light
   description = "Minimal Hugo blog theme with light and dark mode support"
 
 
