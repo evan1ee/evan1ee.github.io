@@ -1,0 +1,22 @@
+# Hugo's build directory
+/public/
+
+# Hugo's temporary files
+/resources/_gen/
+
+# Hugo's cache
+/hugo_cache/
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other typical ignore files
+*.log
+*.swp
+*.bak
+*.tmp

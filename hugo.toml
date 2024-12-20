@@ -1,0 +1,53 @@
+baseURL = 'https://evan1ee.github.io/'
+languageCode = 'en-us'
+title = 'Evan Blog'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+
+
+[menu]
+  [[menu.main]] 
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 30
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    pageRef="logs"
+    name = 'Logs'
+    url = '/logs/'
+    weight = 40
+
+
+[params.author]
+  avatar = "avatar.png" 
+  intro = "Hey, I'm Evan."
+  name = "Evan Lee"
+  description = "Still contemplating what my introduction should be. I haven’t practiced writing in a long time, but writing helps me think."
+
+[params.browserconfig]
+  TileColor = "#2d89ef" 
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@EvanLee001"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/evan1eee"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:evan.1ee@outlook.com"
